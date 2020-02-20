@@ -1,12 +1,49 @@
 {
   "build": {
     "content": [
+      {
+        "files": [
+          "**/*.md",
+          "**/*.yml"
+        ],
+        "exclude": [
+          "**/obj/**",
+          "**/includes/**",
+          "_themes/**",
+          "_themes.pdf/**",
+          "README.md",
+          "LICENSE",
+          "LICENSE-CODE",
+          "ThirdPartyNotices"
+        ],
+        "src": ".",
+        "dest": "."
+      }
     ],
     "resource": [
+      {
+        "files": [
+          "**/*.png",
+          "**/*.jpg"
+        ],
+        "exclude": [
+          "**/obj/**",
+          "**/includes/**",
+          "_themes/**",
+          "_themes.pdf/**"
+        ]
+      }
     ],
     "overwrite": [],
     "externalReference": [],
     "globalMetadata": {
+      "breadcrumb_path": "/github.com/carlyugithub/carlTest/breadcrumb/carlTest/toc.json",
+      "extendBreadcrumb": true,
+      "feedback_system": "None",
+      "is_archived": true,
+      "is_retired": false,
+      "ROBOTS": "NOINDEX,NOFOLLOW",
+      "docs_archive": "tool"
     },
     "fileMetadata": {},
     "template": [],
